@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.weblogo{
+    width: 65px;
+}
+.moblogo{
+    display: none;
+ }
+.navbar{
+
+    background: #00000082!important;
+ }
+ .navbar-nav li
+ {
+  padding: 0 8px;
+
+ }
+ .navbar-nav li a
+ {
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px;
+ }
+
+ .navbar-nav li a:hover {
+    color: #fbaa1a !important;
+ }
+ .home{
+    color: #fbaa1a !important;
+ }
+ .fran{
+    border: 1px solid #fbaa1a !important ;
+ }
+ .banner{
+    background-image: url(https://www.firstfiddle.in/assets/images/new-our-team.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+ }
+ .text1 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 95px;
+    padding-top: 40vh;
+    font-family: 'prague';
+
+}
+.img1{
+    width: 110%;
+    height: 520px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+.p1{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    color:#817d7d;
+    font-family: 'prague';
+}
+.button{
+    color: #ffffff;
+    padding: 8px 18px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fbac29;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+
+}
+.icon{
+    color: #fbaa1a;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.img2{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+.img3{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.div1{
+    margin-top: -68px;
+    margin-left: -25px;
+    color: white;
+}
+
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.con{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 35px;
+}
+.pa2 {
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.icon{
+    color: #fbaa1a;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.min{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.footera{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+@media(max-width: 768px)
+{
+ .moblogo{
+    display: block;
+ }
+ .weblogo{
+  display: none;
+ }
+ .navbar{
+  background: #fcb21b!important;
+ }
+ .img12{
+    margin-top: 50px;
+ }
+}
+

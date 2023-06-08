@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.weblogo{
+    width: 65px;
+}
+.moblogo{
+    display: none;
+ }
+.navbar{
+
+    background: #00000082!important;
+ }
+ .navbar-nav li
+ {
+  padding: 0 8px;
+
+ }
+ .navbar-nav li a
+ {
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px;
+ }
+
+ .navbar-nav li a:hover {
+    color: #fbaa1a !important;
+ }
+ @media(max-width: 768px)
+ {
+  .moblogo{
+     display: block;
+  }
+  .weblogo{
+   display: none;
+  }
+  .navbar{
+   background: #fcb21b!important;
+  }
+  .img1{
+     margin-top: 50px;
+  }
+ }
+ .home{
+    color: #fbaa1a !important;
+ }
+ .fran{
+    border: 1px solid #fbaa1a !important ;
+ }
+ .banner{
+    background-image: url(https://www.firstfiddle.in/assets/images/press-new-1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+ }
+ .text1 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 95px;
+    padding-top: 40vh;
+    font-family: 'prague';
+}
+.box
+{
+    
+    border-bottom: 2px solid #aba7a7;
+    padding-bottom: 10px;
+}
+.box1
+{
+    text-align: center;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    padding:15px;
+}
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.con{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 35px;
+}
+.pa2 {
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.icon{
+    color: #fbaa1a;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.min{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.footera{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+
+

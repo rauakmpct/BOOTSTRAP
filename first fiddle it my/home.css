@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.weblogo{
+    width: 65px;
+}
+.moblogo{
+    display: none;
+ }
+.navbar{
+
+    background: #00000082!important;
+ }
+ .navbar-nav li
+ {
+  padding: 0 8px;
+
+ }
+ .navbar-nav li a
+ {
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px;
+ }
+
+ .navbar-nav li a:hover {
+    color: #fbaa1a !important;
+ }
+ .home{
+    color: #fbaa1a !important;
+ }
+ .fran{
+    border: 1px solid #fbaa1a !important ;
+ }
+.wel {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 40px;
+}
+
+.p1 {
+    letter-spacing: 1px;
+    text-align: justify;
+    word-spacing: 1px;
+    font-size: 17px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn1 {
+    background-color: #fbaa1a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.img1 {
+    width: 80%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+
+.ban {
+    background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+    width: 100%;
+
+}
+
+.me {
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.pa1 {
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.btn2 {
+    background-color: #fbaa1a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size:18px;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.ban1 {
+    background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.ex {
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.pa1 {
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.btn3 {
+    background-color: #fbaa1a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size:18px;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.exp {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 40px;
+}
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.con{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 35px;
+}
+.pa2 {
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.icon{
+    color: #fbaa1a;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.min{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.footera{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+@media(max-width: 768px)
+{
+ .moblogo{
+    display: block;
+ }
+ .weblogo{
+  display: none;
+ }
+ .navbar{
+  background: #fcb21b!important;
+ }
+ .img1{
+    margin-top: 50px;
+ }
+}
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 153px;
+  }
+ h3{
+    font-size: 70px;
+    border-bottom-style: ridge;
+    font-weight: bold;
+    border-bottom-color: #82c434;
+   
+  }
+
+
+  @media(max-width: 1300px)
+  {
+    h2{
+      font-size: 40px;
+    }
+  }
+  @media(max-width: 700px)
+  {
+    h2{
+      font-size: 20px;
+    }
+  }
+
+
+
+
+

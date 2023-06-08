@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.weblogo {
+    width: 65px;
+}
+.moblogo{
+    display: none;
+ }
+.navbar {
+
+    background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 0 8px;
+
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+    color: #fbaa1a !important;
+}
+
+.home {
+    color: #fbaa1a !important;
+}
+
+.fran {
+    border: 1px solid #fbaa1a !important;
+}
+
+.banner {
+    background-image: url(https://www.firstfiddle.in/assets/images/new-about-us-1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+}
+.text1 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+    padding-top: 40vh;
+    font-family: 'prague';
+
+}
+.onc {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 40px;
+}
+.p1 {
+    text-align: justify;
+    font-size: 17px;
+    color: #5f5d5d;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 28px;
+}
+.ban {
+    background-image: url(https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.th {
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.pa1 {
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.img1 {
+    width: 100%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+.p2 {
+    text-align: justify;
+    font-size: 17px;
+    color: #5f5d5d;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+.joi {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 40px;
+}
+
+.p3 {
+    letter-spacing: 1px;
+    text-align: justify;
+    word-spacing: 1px;
+    font-size: 17px;
+    line-height: 35px;
+    color: #5f5d5d;
+
+}
+
+.btn1 {
+    background-color: #fbaa1a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.img1 {
+    width: 100%;
+}
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.con{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'prague';
+    font-size: 35px;
+}
+.pa2 {
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.icon{
+    color: #fbaa1a;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.min{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.footera{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+@media(max-width: 768px)
+{
+ .moblogo{
+    display: block;
+ }
+ .weblogo{
+  display: none;
+ }
+ .navbar{
+  background: #fcb21b!important;
+ }
+ .img12{
+    margin-top: 50px;
+ }
+}
